@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE01E03913E981DF0093DBC2 /* kradlink_icon_thing.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE01E03813E981DF0093DBC2 /* kradlink_icon_thing.icns */; };
+		EECF9B5413FF9EE400FECFFA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF9B5313FF9EE400FECFFA /* Sparkle.framework */; };
+		EECF9B5613FF9F3C00FECFFA /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = EECF9B5313FF9EE400FECFFA /* Sparkle.framework */; };
+		EECF9B5813FFA4FD00FECFFA /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = EECF9B5713FFA4FD00FECFFA /* dsa_pub.pem */; };
+		EEDFFBAC13E9A6FA00F59200 /* libjack.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDFFBAB13E9A6FA00F59200 /* libjack.0.dylib */; };
+		EEDFFBB213E9A71100F59200 /* libjack.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEDFFBAB13E9A6FA00F59200 /* libjack.0.dylib */; };
+		EEE2029B13D400B000F8F268 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2029813D400B000F8F268 /* AudioToolbox.framework */; };
+		EEE2029C13D400B000F8F268 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2029913D400B000F8F268 /* AudioUnit.framework */; };
+		EEE2029D13D400B000F8F268 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2029A13D400B000F8F268 /* CoreAudio.framework */; };
+		EEE2029F13D400BB00F8F268 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2029E13D400BB00F8F268 /* CoreServices.framework */; };
+		EEE202A113D400CF00F8F268 /* Jackmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202A013D400CF00F8F268 /* Jackmp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EEE202A213D401E600F8F268 /* Jackmp.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202A013D400CF00F8F268 /* Jackmp.framework */; };
+		EEE202EC13D4141F00F8F268 /* libcelt0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202E713D4141F00F8F268 /* libcelt0.2.dylib */; };
+		EEE202ED13D4141F00F8F268 /* libFLAC.8.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202E813D4141F00F8F268 /* libFLAC.8.2.0.dylib */; };
+		EEE202EE13D4141F00F8F268 /* libogg.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202E913D4141F00F8F268 /* libogg.0.dylib */; };
+		EEE202EF13D4141F00F8F268 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202EA13D4141F00F8F268 /* libportaudio.2.dylib */; };
+		EEE202F013D4141F00F8F268 /* libspeexdsp.1.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE202EB13D4141F00F8F268 /* libspeexdsp.1.5.0.dylib */; };
+		EEE202F313D4145500F8F268 /* libcelt0.2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202E713D4141F00F8F268 /* libcelt0.2.dylib */; };
+		EEE202F413D4145A00F8F268 /* libFLAC.8.2.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202E813D4141F00F8F268 /* libFLAC.8.2.0.dylib */; };
+		EEE202F513D4145D00F8F268 /* libogg.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202E913D4141F00F8F268 /* libogg.0.dylib */; };
+		EEE202F613D4146000F8F268 /* libportaudio.2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202EA13D4141F00F8F268 /* libportaudio.2.dylib */; };
+		EEE202F713D4146300F8F268 /* libspeexdsp.1.5.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EEE202EB13D4141F00F8F268 /* libspeexdsp.1.5.0.dylib */; };
+		EEEAEE7F13D3C76B007787E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEAEE7E13D3C76B007787E8 /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EEEAEE8913D3C76B007787E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEEAEE8713D3C76B007787E8 /* InfoPlist.strings */; };
+		EEEAEE8C13D3C76B007787E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAEE8B13D3C76B007787E8 /* main.m */; };
+		EEEAEE8F13D3C76B007787E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EEEAEE8D13D3C76B007787E8 /* Credits.rtf */; };
+		EEEAEE9213D3C76B007787E8 /* Krad_LinkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAEE9113D3C76B007787E8 /* Krad_LinkAppDelegate.m */; };
+		EEEAEE9513D3C76B007787E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEEAEE9313D3C76B007787E8 /* MainMenu.xib */; };
+		EEEAEEAF13D3D9D6007787E8 /* kradlink.c in Sources */ = {isa = PBXBuildFile; fileRef = EEEAEEAB13D3D9D6007787E8 /* kradlink.c */; };
+		EEEAEEB013D3D9D6007787E8 /* libkradlink.c in Sources */ = {isa = PBXBuildFile; fileRef = EEEAEEAD13D3D9D6007787E8 /* libkradlink.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEE2024D13D3F8E400F8F268 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EEE202A213D401E600F8F268 /* Jackmp.framework in Copy Files */,
+				EECF9B5613FF9F3C00FECFFA /* Sparkle.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE202F213D4143A00F8F268 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				EEDFFBB213E9A71100F59200 /* libjack.0.dylib in Copy Files */,
+				EEE202F313D4145500F8F268 /* libcelt0.2.dylib in Copy Files */,
+				EEE202F713D4146300F8F268 /* libspeexdsp.1.5.0.dylib in Copy Files */,
+				EEE202F413D4145A00F8F268 /* libFLAC.8.2.0.dylib in Copy Files */,
+				EEE202F613D4146000F8F268 /* libportaudio.2.dylib in Copy Files */,
+				EEE202F513D4145D00F8F268 /* libogg.0.dylib in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE01E03813E981DF0093DBC2 /* kradlink_icon_thing.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = kradlink_icon_thing.icns; path = ../kradlink_icon_thing.icns; sourceTree = "<group>"; };
+		EECF9B5313FF9EE400FECFFA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		EECF9B5713FFA4FD00FECFFA /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		EEDFFBAB13E9A6FA00F59200 /* libjack.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjack.0.dylib; path = usr/local/lib/libjack.0.dylib; sourceTree = SDKROOT; };
+		EEE2029813D400B000F8F268 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EEE2029913D400B000F8F268 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		EEE2029A13D400B000F8F268 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EEE2029E13D400BB00F8F268 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		EEE202A013D400CF00F8F268 /* Jackmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Jackmp.framework; path = Library/Frameworks/Jackmp.framework; sourceTree = SDKROOT; };
+		EEE202E713D4141F00F8F268 /* libcelt0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcelt0.2.dylib; path = ../../../../../../usr/local/lib/libcelt0.2.dylib; sourceTree = "<group>"; };
+		EEE202E813D4141F00F8F268 /* libFLAC.8.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFLAC.8.2.0.dylib; path = ../../../../../../usr/local/lib/libFLAC.8.2.0.dylib; sourceTree = "<group>"; };
+		EEE202E913D4141F00F8F268 /* libogg.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libogg.0.dylib; path = ../../../../../../usr/local/lib/libogg.0.dylib; sourceTree = "<group>"; };
+		EEE202EA13D4141F00F8F268 /* libportaudio.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libportaudio.2.dylib; path = ../../../../../../usr/local/lib/libportaudio.2.dylib; sourceTree = "<group>"; };
+		EEE202EB13D4141F00F8F268 /* libspeexdsp.1.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libspeexdsp.1.5.0.dylib; path = ../../../../../../usr/local/lib/libspeexdsp.1.5.0.dylib; sourceTree = "<group>"; };
+		EEEAEE7A13D3C76B007787E8 /* Krad Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Krad Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEAEE7E13D3C76B007787E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EEEAEE8113D3C76B007787E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EEEAEE8213D3C76B007787E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EEEAEE8313D3C76B007787E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEEAEE8613D3C76B007787E8 /* Krad Link-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Krad Link-Info.plist"; sourceTree = "<group>"; };
+		EEEAEE8813D3C76B007787E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEEAEE8A13D3C76B007787E8 /* Krad Link-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Krad Link-Prefix.pch"; sourceTree = "<group>"; };
+		EEEAEE8B13D3C76B007787E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEAEE8E13D3C76B007787E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EEEAEE9013D3C76B007787E8 /* Krad_LinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Krad_LinkAppDelegate.h; sourceTree = "<group>"; };
+		EEEAEE9113D3C76B007787E8 /* Krad_LinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Krad_LinkAppDelegate.m; sourceTree = "<group>"; };
+		EEEAEE9413D3C76B007787E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EEEAEEAB13D3D9D6007787E8 /* kradlink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kradlink.c; path = ../../kradlink/kradlink.c; sourceTree = "<group>"; };
+		EEEAEEAC13D3D9D6007787E8 /* kradlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kradlink.h; path = ../../kradlink/kradlink.h; sourceTree = "<group>"; };
+		EEEAEEAD13D3D9D6007787E8 /* libkradlink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libkradlink.c; path = ../../kradlink/libkradlink.c; sourceTree = "<group>"; };
+		EEEAEEAE13D3D9D6007787E8 /* libkradlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libkradlink.h; path = ../../kradlink/libkradlink.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEAEE7713D3C76B007787E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDFFBAC13E9A6FA00F59200 /* libjack.0.dylib in Frameworks */,
+				EEE202A113D400CF00F8F268 /* Jackmp.framework in Frameworks */,
+				EEE2029F13D400BB00F8F268 /* CoreServices.framework in Frameworks */,
+				EEE2029B13D400B000F8F268 /* AudioToolbox.framework in Frameworks */,
+				EEE2029C13D400B000F8F268 /* AudioUnit.framework in Frameworks */,
+				EEE2029D13D400B000F8F268 /* CoreAudio.framework in Frameworks */,
+				EEEAEE7F13D3C76B007787E8 /* Cocoa.framework in Frameworks */,
+				EEE202EC13D4141F00F8F268 /* libcelt0.2.dylib in Frameworks */,
+				EEE202ED13D4141F00F8F268 /* libFLAC.8.2.0.dylib in Frameworks */,
+				EEE202EE13D4141F00F8F268 /* libogg.0.dylib in Frameworks */,
+				EEE202EF13D4141F00F8F268 /* libportaudio.2.dylib in Frameworks */,
+				EEE202F013D4141F00F8F268 /* libspeexdsp.1.5.0.dylib in Frameworks */,
+				EECF9B5413FF9EE400FECFFA /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEAEE6F13D3C76A007787E8 = {
+			isa = PBXGroup;
+			children = (
+				EEE202A013D400CF00F8F268 /* Jackmp.framework */,
+				EEE2029E13D400BB00F8F268 /* CoreServices.framework */,
+				EEE2029813D400B000F8F268 /* AudioToolbox.framework */,
+				EEE2029913D400B000F8F268 /* AudioUnit.framework */,
+				EEE2029A13D400B000F8F268 /* CoreAudio.framework */,
+				EEEAEEA313D3D753007787E8 /* Krad Code */,
+				EEEAEE8413D3C76B007787E8 /* Krad Link */,
+				EEEAEE7D13D3C76B007787E8 /* Frameworks */,
+				EEEAEE7B13D3C76B007787E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEAEE7B13D3C76B007787E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAEE7A13D3C76B007787E8 /* Krad Link.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEAEE7D13D3C76B007787E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECF9B5313FF9EE400FECFFA /* Sparkle.framework */,
+				EEEAEE7E13D3C76B007787E8 /* Cocoa.framework */,
+				EEEAEE8013D3C76B007787E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEEAEE8013D3C76B007787E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFFBAB13E9A6FA00F59200 /* libjack.0.dylib */,
+				EEE202E713D4141F00F8F268 /* libcelt0.2.dylib */,
+				EEE202E813D4141F00F8F268 /* libFLAC.8.2.0.dylib */,
+				EEE202E913D4141F00F8F268 /* libogg.0.dylib */,
+				EEE202EA13D4141F00F8F268 /* libportaudio.2.dylib */,
+				EEE202EB13D4141F00F8F268 /* libspeexdsp.1.5.0.dylib */,
+				EEEAEE8113D3C76B007787E8 /* AppKit.framework */,
+				EEEAEE8213D3C76B007787E8 /* CoreData.framework */,
+				EEEAEE8313D3C76B007787E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EEEAEE8413D3C76B007787E8 /* Krad Link */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAEE9013D3C76B007787E8 /* Krad_LinkAppDelegate.h */,
+				EEEAEE9113D3C76B007787E8 /* Krad_LinkAppDelegate.m */,
+				EEEAEE9313D3C76B007787E8 /* MainMenu.xib */,
+				EEEAEE8513D3C76B007787E8 /* Supporting Files */,
+			);
+			path = "Krad Link";
+			sourceTree = "<group>";
+		};
+		EEEAEE8513D3C76B007787E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECF9B5713FFA4FD00FECFFA /* dsa_pub.pem */,
+				EE01E03813E981DF0093DBC2 /* kradlink_icon_thing.icns */,
+				EEEAEE8613D3C76B007787E8 /* Krad Link-Info.plist */,
+				EEEAEE8713D3C76B007787E8 /* InfoPlist.strings */,
+				EEEAEE8A13D3C76B007787E8 /* Krad Link-Prefix.pch */,
+				EEEAEE8B13D3C76B007787E8 /* main.m */,
+				EEEAEE8D13D3C76B007787E8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEAEEA313D3D753007787E8 /* Krad Code */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAEEAB13D3D9D6007787E8 /* kradlink.c */,
+				EEEAEEAC13D3D9D6007787E8 /* kradlink.h */,
+				EEEAEEAD13D3D9D6007787E8 /* libkradlink.c */,
+				EEEAEEAE13D3D9D6007787E8 /* libkradlink.h */,
+			);
+			name = "Krad Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEAEE7913D3C76B007787E8 /* Krad Link */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEAEE9813D3C76B007787E8 /* Build configuration list for PBXNativeTarget "Krad Link" */;
+			buildPhases = (
+				EEEAEE7613D3C76B007787E8 /* Sources */,
+				EEEAEE7713D3C76B007787E8 /* Frameworks */,
+				EEEAEE7813D3C76B007787E8 /* Resources */,
+				EEE2024D13D3F8E400F8F268 /* Copy Files */,
+				EEE202F213D4143A00F8F268 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Krad Link";
+			productName = "Krad Link";
+			productReference = EEEAEE7A13D3C76B007787E8 /* Krad Link.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEAEE7113D3C76A007787E8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EEEAEE7413D3C76A007787E8 /* Build configuration list for PBXProject "Krad Link" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEEAEE6F13D3C76A007787E8;
+			productRefGroup = EEEAEE7B13D3C76B007787E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEAEE7913D3C76B007787E8 /* Krad Link */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEAEE7813D3C76B007787E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEAEE8913D3C76B007787E8 /* InfoPlist.strings in Resources */,
+				EEEAEE8F13D3C76B007787E8 /* Credits.rtf in Resources */,
+				EEEAEE9513D3C76B007787E8 /* MainMenu.xib in Resources */,
+				EE01E03913E981DF0093DBC2 /* kradlink_icon_thing.icns in Resources */,
+				EECF9B5813FFA4FD00FECFFA /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEAEE7613D3C76B007787E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEAEE8C13D3C76B007787E8 /* main.m in Sources */,
+				EEEAEE9213D3C76B007787E8 /* Krad_LinkAppDelegate.m in Sources */,
+				EEEAEEAF13D3D9D6007787E8 /* kradlink.c in Sources */,
+				EEEAEEB013D3D9D6007787E8 /* libkradlink.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEEAEE8713D3C76B007787E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEAEE8813D3C76B007787E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEEAEE8D13D3C76B007787E8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEAEE8E13D3C76B007787E8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EEEAEE9313D3C76B007787E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEAEE9413D3C76B007787E8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEAEE9613D3C76B007787E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEEAEE9713D3C76B007787E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEEAEE9913D3C76B007787E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Krad Link/Krad Link-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					MACOSX,
+					COCOA,
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Krad Link/Krad Link-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEEAEE9A13D3C76B007787E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Krad Link/Krad Link-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					MACOSX,
+					COCOA,
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Krad Link/Krad Link-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEAEE7413D3C76A007787E8 /* Build configuration list for PBXProject "Krad Link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEAEE9613D3C76B007787E8 /* Debug */,
+				EEEAEE9713D3C76B007787E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEAEE9813D3C76B007787E8 /* Build configuration list for PBXNativeTarget "Krad Link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEAEE9913D3C76B007787E8 /* Debug */,
+				EEEAEE9A13D3C76B007787E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEAEE7113D3C76A007787E8 /* Project object */;
+}
