@@ -44,7 +44,7 @@
     NSLevelIndicator *left_input_level;
     NSLevelIndicator *right_input_level;
     NSButton *status_icon_checkbox;
-}
+} 
 - (IBAction)options_okay_button:(id)sender;
 - (IBAction)send_rec_change:(id)sender;
 @property (assign) IBOutlet NSLevelIndicator *left_input_level;
