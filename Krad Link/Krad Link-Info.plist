@@ -34,13 +34,15 @@
 	<string>NSApplication</string>
 	<key>NSServices</key>
 	<array/>
-	<key>UTExportedTypeDeclarations</key>
-	<array/>
-	<key>UTImportedTypeDeclarations</key>
-	<array/>
 	<key>SUFeedURL</key>
 	<string>http://link.kradradio.com/appcast</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array/>
+	<key>UTImportedTypeDeclarations</key>
+	<array/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
 </dict>
 </plist>
