@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE01E03913E981DF0093DBC2 /* kradlink_icon_thing.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE01E03813E981DF0093DBC2 /* kradlink_icon_thing.icns */; };
+		EE978D341404A45A00316B8F /* libminiupnpc.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE978D331404A45A00316B8F /* libminiupnpc.5.dylib */; };
+		EE978D361404A47F00316B8F /* libminiupnpc.5.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = EE978D351404A47F00316B8F /* libminiupnpc.5.dylib */; };
 		EECF9B5413FF9EE400FECFFA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF9B5313FF9EE400FECFFA /* Sparkle.framework */; };
 		EECF9B5613FF9F3C00FECFFA /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = EECF9B5313FF9EE400FECFFA /* Sparkle.framework */; };
 		EECF9B5813FFA4FD00FECFFA /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = EECF9B5713FFA4FD00FECFFA /* dsa_pub.pem */; };
@@ -58,6 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
+				EE978D361404A47F00316B8F /* libminiupnpc.5.dylib in Copy Files */,
 				EEDFFBB213E9A71100F59200 /* libjack.0.dylib in Copy Files */,
 				EEE202F313D4145500F8F268 /* libcelt0.2.dylib in Copy Files */,
 				EEE202F713D4146300F8F268 /* libspeexdsp.1.5.0.dylib in Copy Files */,
@@ -72,6 +75,8 @@
 
 /* Begin PBXFileReference section */
 		EE01E03813E981DF0093DBC2 /* kradlink_icon_thing.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = kradlink_icon_thing.icns; path = ../kradlink_icon_thing.icns; sourceTree = "<group>"; };
+		EE978D331404A45A00316B8F /* libminiupnpc.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libminiupnpc.5.dylib; path = ../../../../../../usr/lib/libminiupnpc.5.dylib; sourceTree = "<group>"; };
+		EE978D351404A47F00316B8F /* libminiupnpc.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libminiupnpc.5.dylib; path = ../../../../../../usr/lib/libminiupnpc.5.dylib; sourceTree = "<group>"; };
 		EECF9B5313FF9EE400FECFFA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		EECF9B5713FFA4FD00FECFFA /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		EEDFFBAB13E9A6FA00F59200 /* libjack.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjack.0.dylib; path = usr/local/lib/libjack.0.dylib; sourceTree = SDKROOT; };
@@ -109,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE978D341404A45A00316B8F /* libminiupnpc.5.dylib in Frameworks */,
 				EEDFFBAC13E9A6FA00F59200 /* libjack.0.dylib in Frameworks */,
 				EEE202A113D400CF00F8F268 /* Jackmp.framework in Frameworks */,
 				EEE2029F13D400BB00F8F268 /* CoreServices.framework in Frameworks */,
@@ -131,6 +137,8 @@
 		EEEAEE6F13D3C76A007787E8 = {
 			isa = PBXGroup;
 			children = (
+				EE978D351404A47F00316B8F /* libminiupnpc.5.dylib */,
+				EE978D331404A45A00316B8F /* libminiupnpc.5.dylib */,
 				EEE202A013D400CF00F8F268 /* Jackmp.framework */,
 				EEE2029E13D400BB00F8F268 /* CoreServices.framework */,
 				EEE2029813D400B000F8F268 /* AudioToolbox.framework */,
